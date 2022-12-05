@@ -15,11 +15,11 @@
        - uses: actions/checkout@v3
 
        - name: "Login to Docker Hup"
-         run: docker login --username hasnaaebrahim --password dckr_pat_edLCve5Jte1nPxONkz5sXUlGNPc
+         run: docker login --username hasnaaEbrahi--password dckr_pat_edLCve5Jte1nPxONkz5sXUlGNPc
 
 
        - name: "Bulding docker image"
-         run: docker build -t hasnaaebrahim/my image .
+         run: docker build -t  hasnaaEbrahi/myimage       
 
        - name: "Pushing to Docker Hup"
-         run: docker push  hasnaaebrahim/my image 
+         run: docker push  hasnaaEbrahi/myimage 

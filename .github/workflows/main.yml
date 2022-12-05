@@ -16,3 +16,10 @@
 
        - name: "Login to Docker Hup"
          run: docker login --username hasnaaebrahim --password dckr_pat_edLCve5Jte1nPxONkz5sXUlGNPc
+
+
+       - name: "Bulding docker image"
+         run: docker build -t hasnaaebrahim/my image .
+
+       - name: "Pushing to Docker Hup"
+         run: docker push  hasnaaebrahim/my image 
